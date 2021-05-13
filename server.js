@@ -14,7 +14,7 @@ app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
 
-app.get('/api', (req, res) => {
+app.post('/app', (req, res) => {
 
     var ts = Date.now()
     var params = {
